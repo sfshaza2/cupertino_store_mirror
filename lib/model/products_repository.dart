@@ -1,6 +1,6 @@
 import 'product.dart';
 
-class ProductsRepository {
+abstract class ProductsRepository {
   static const _allProducts = <Product>[
     Product(
       category: Category.accessories,
