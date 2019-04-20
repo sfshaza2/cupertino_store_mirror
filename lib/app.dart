@@ -28,15 +28,15 @@ class CupertinoStoreHomePage extends StatelessWidget {
         items: const <BottomNavigationBarItem>[
           BottomNavigationBarItem(
             icon: Icon(CupertinoIcons.home),
-            title: const Text('Products'),
+            title: Text('Products'),
           ),
           BottomNavigationBarItem(
             icon: Icon(CupertinoIcons.search),
-            title: const Text('Search'),
+            title: Text('Search'),
           ),
           BottomNavigationBarItem(
             icon: Icon(CupertinoIcons.shopping_cart),
-            title: const Text('Cart'),
+            title: Text('Cart'),
           ),
         ],
       ),
